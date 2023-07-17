@@ -1,0 +1,73 @@
+.Accordion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ max-width: 100vh;
+ margin :0 auto 30px;
+}
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.App-container {
+  background-color: #b3bac8;
+  min-height: 50vh;
+  max-width: 100vh;
+  padding-bottom:20px;
+  width: 90%;
+  font-size:18px;
+  color: white;
+  border-radius: 15px;
+  
+}
+section div,
+section p{
+  background-color: white;
+  margin: 15px auto;
+  margin-top: 0;
+  padding: 0 10px ;
+  color: black;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section p{
+  padding-bottom:10px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+/* .opened{
+  background-color: white;
+  margin: 20px auto;
+  padding: 0 10px ;
+  color: black;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+button {
+  font-size: 35px;
+  width: 55px;
+ background-color: rgb(217, 223, 223);
+ color: rgb(90, 87, 87);
+ border-radius: 5px;
+ border: none;
+}
+.answer{
+  background-color: white;
+  padding: 0 10px ;
+  color: black;
+  width: 90%;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+
+
